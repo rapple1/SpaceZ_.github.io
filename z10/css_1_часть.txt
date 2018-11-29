@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Verdana, sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.container {
+  width: 1040px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.site-header {
+  color: #ffffff;
+  background-color: #222222;
+}
+
+.site-header .container {
+  min-height: 400px;
+  padding-top: 50px;
+  padding-bottom: 180px;
+  background-image: url("../img/moon-rocket.png");
+  background-repeat: no-repeat;
+  background-position: 520px 130px;
+}
+
+.main-nav {
+  display: flex;
+  margin-bottom: 95px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 60px;
+}
+
+.site-menu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 660px;
+  margin: 0;
+  margin-top: 25px;
+  padding: 0;
+  list-style: none;
+}
+
+.site-menu a {
+  display: block;
+  margin-right: 40px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #d4d4d4;
+}
+
+.site-menu a:hover {
+  color: white;
+}
+
+.site-menu a:active {
+  color: #ccc;
+}
+
+.contacts-menu {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 180px;
+  margin: 0;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: 80px;
+  padding: 0;
+
+  list-style: none;
+}
+
+.contacts-menu li {
+  margin-left: 20px;
+}
+
+.contacts-menu a:hover {
+  opacity: 0.3;
+}
+
+.contacts-menu a:active {
+  opacity: 0.4;
+}
+
+.contacts-menu .icon {
+  display: block;
+  width: 17px;
+  height: 17px;
+}
+
+.contacts-menu .icon-mail {
+  background-image: url(../img/mail-icon.png);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
+
+.contacts-menu .icon-phone {
+  background-image: url(../img/phone-icon.png);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+}
